@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Original</string>
+    <string name="seller">Seller</string>
+    <string name="admin">Admin</string>
+    <string name="text_sign_in">SignIn</string>
+    <string name="don_t_have_account_signup">don‘t have account Signup</string>
+    <string name="forget_password">forget Password</string>
+
+    <string name="password">Password</string>
+    <string name="email">E-mail</string>
+    <string name="log_in">LogIn</string>
+    <string name="conform_password">Confirm Password</string>
+    <string name="sign_up">SignUp</string>
+    <string name="have_account_signin">have acount? SignIn</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="faild">Faild</string>
+    <string name="enter_availed_email">enter availed email</string>
+    <string name="enter_password">enter password</string>
+    <string name="title_activity_admin">AdminActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login_admin">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main_admin">Original</string>
+    <string name="name">Name</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="sellers">Sellers</string>
+    <string name="goods">Goods</string>
+    <string name="goodss">goods</string>
+    <string name="log_out">Log Out</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loging_out">Loging Out</string>
+    <string name="profile_name">Profile Name</string>
+    <string name="add_admin">Add Admin</string>
+    <string name="create">Create</string>
+    <string name="enter_profile_name">Enter Profile Name</string>
+    <string name="enter_password_again">Enter Password Again</string>
+    <string name="password_should_match">Password Should Match</string>
+</resources>

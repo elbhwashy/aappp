@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/home"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/nav_sellers"
+            android:icon="@mipmap/friend"
+            android:title="@string/sellers" />
+
+    </group>
+
+    <item android:title="@string/goods">
+        <menu>
+            <item
+                android:id="@+id/nav_goods"
+                android:icon="@mipmap/goods"
+                android:title="@string/goodss" />
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_person_black_24dp"
+                android:title="@string/profile" />
+        </menu>
+    </item>
+
+
+</menu>

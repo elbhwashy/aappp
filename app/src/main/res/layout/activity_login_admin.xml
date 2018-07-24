@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".Admin.LoginAdminActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_consult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:text="@string/log_in"
+
+            android:textColor="#000"
+            android:textSize="25sp" />
+
+        <!--<android.support.design.widget.TextInputLayout-->
+        <!--android:id="@+id/textInput_layout_name"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<android.support.design.widget.TextInputEditText-->
+        <!--android:id="@+id/textInputEditText_name"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="16dp"-->
+        <!--android:layout_marginLeft="48dp"-->
+        <!--android:layout_marginRight="48dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:hint="@string/profile_name"-->
+        <!--android:inputType="textEmailAddress"-->
+        <!--android:maxLines="1"-->
+        <!--android:textColor="#000"-->
+        <!--android:textSize="14sp" />-->
+        <!--</android.support.design.widget.TextInputLayout>-->
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInput_layout_email"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textInputEditText_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="48dp"
+                android:layout_marginTop="16dp"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:textColor="#000"
+                android:textSize="14sp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInput_layout_password"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textInputEditText_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="48dp"
+                android:layout_marginTop="16dp"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textColor="#000"
+                android:textSize="14sp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!--<TextView-->
+        <!--android:id="@+id/textView_forget_password"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="16dp"-->
+        <!--android:layout_marginLeft="48dp"-->
+        <!--android:layout_marginRight="48dp"-->
+        <!--android:gravity="left|top"-->
+        <!--android:text="@string/forget_password"-->
+        <!--android:textColor="#000"-->
+        <!--android:textSize="12sp"-->
+        <!--tools:ignore="RtlHardcoded" />-->
+
+        <Button
+
+            android:id="@+id/Button_sign_in"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button_shap"
+            android:text="@string/text_sign_in"
+            android:textAllCaps="false"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/textView_sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/sign_up"
+            android:textColor="#000"
+            android:textSize="12sp"
+            tools:ignore="RtlHardcoded" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
